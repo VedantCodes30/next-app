@@ -17,7 +17,7 @@ export default function Page() {
           <div className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black" />
           <p className={`${lusitana.className} antialiased`}>
             <strong>Welcome to Acme.</strong> This is the example for the{" "}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
+            <a href="https://nextjs.org/learn/" className="text-blue-600">
               Next.js Learn Course
             </a>
             , brought to you by Vercel.
