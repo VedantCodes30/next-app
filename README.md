@@ -1,5 +1,5 @@
 # next-app
 
-next js demo app
+A Dashboard app that fetches data from Neon Postgres API.
 
-# Made using offical documentation on vercel
+# Made using documentation available on vercel
