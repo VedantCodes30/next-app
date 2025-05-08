@@ -5,6 +5,10 @@ import { lusitana } from "@/app/ui/fonts";
 import { fetchRevenue } from "@/app/lib/data";
 import { fetchLatestInvoices } from "@/app/lib/data";
 
+export const metadata = {
+  title: "Dashboard",
+};
+
 export default async function Page() {
   const revenue = await fetchRevenue();
   const latestInvoices = await fetchLatestInvoices();
